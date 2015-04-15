@@ -1,5 +1,6 @@
 function highlightCode(node, keywords) {
   var text = node.textContent;
+console.log(text);
   node.textContent = ""; // Clear the node
 
   var match, pos = 0;
