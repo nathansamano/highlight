@@ -1,5 +1,6 @@
 var languages = {
   js: /\b(function|return|var)\b/g /* ... etc */
+  java: /\b(public|protected|private)\b/g
 };
 
 function highlightAllCode() {
